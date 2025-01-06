@@ -23,6 +23,7 @@ public class MapInterface {
 		System.out.println("Map is : = " + m);
 		System.out.println(m.get("3"));
 		System.out.println(m.containsKey("5"));
+		System.out.println(m.keySet());
 		System.out.println(m.entrySet());
 		m.remove("2");
 		System.out.println(m);
